@@ -156,7 +156,7 @@ export default function Experience() {
                   {/* Role Title, Company & Icon */}
                   <div className="flex items-start gap-3 sm:gap-3.5 mb-3">
                     <div className="w-10 h-10 sm:w-11 sm:h-11 2xl:w-12 2xl:h-12 rounded-xl bg-[var(--neo-surface-subtle)] border-2 border-[var(--neo-border)] shadow-[2px_2px_0px_var(--neo-shadow)] flex items-center justify-center text-indigo-600 dark:text-indigo-400 flex-shrink-0 text-xl sm:text-2xl">
-                      <Icon />
+                      <Icon aria-hidden="true" />
                     </div>
                     <div className="min-w-0 flex-1">
                       <h3 className="text-base sm:text-xl 2xl:text-2xl font-bold font-display text-[var(--neo-text)] leading-snug">
@@ -174,9 +174,10 @@ export default function Experience() {
                             href={exp.link}
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label={`Visit live self-hosted node at ${exp.linkLabel || exp.link}`}
                             className="inline-flex items-center gap-1.5 font-mono text-[10px] sm:text-xs font-bold text-cyan-600 dark:text-cyan-400 hover:text-cyan-500 bg-cyan-500/10 hover:bg-cyan-500/20 px-2 py-0.5 rounded-md border border-cyan-500/30 transition-all hover:scale-105"
                           >
-                            <FiExternalLink className="text-[10px] sm:text-xs flex-shrink-0" />
+                            <FiExternalLink className="text-[10px] sm:text-xs flex-shrink-0" aria-hidden="true" />
                             <span>{exp.linkLabel || exp.link.replace(/^https?:\/\//, "")}</span>
                           </a>
                         </div>
@@ -193,7 +194,7 @@ export default function Experience() {
                   <div className="space-y-1.5 sm:space-y-2 mb-4 sm:mb-5">
                     {exp.highlights.map((item, hIdx) => (
                       <div key={hIdx} className="flex items-start gap-2 text-xs sm:text-sm 2xl:text-base text-[var(--neo-text)]">
-                        <FiCheckCircle className="text-emerald-500 mt-0.5 flex-shrink-0 text-sm 2xl:text-base" />
+                        <FiCheckCircle className="text-emerald-500 mt-0.5 flex-shrink-0 text-sm 2xl:text-base" aria-hidden="true" />
                         <span>{item}</span>
                       </div>
                     ))}

@@ -1,0 +1,44 @@
+# Salman Toha — Full Stack & DevOps Engineer
+
+> Frontend Developer at Pixelora Studio (Betopia Group), Computer Science undergraduate at Daffodil International University (4th Year), and self-hosted HomeLab DevOps architect.
+
+## Summary
+Salman Toha is a software engineer based in Dhaka, Bangladesh specializing in resilient full-stack web applications, custom self-hosted server infrastructure, container orchestration, and automated CI/CD deployment pipelines.
+
+- **Current Role**: Frontend Developer @ Pixelora Studio (Betopia Group) (Apr 2026 — Present)
+- **Education**: Daffodil International University — BSc in Computer Science & Engineering (4th Year, Expected 2026) • HSC GPA: 4.95 / 5.00
+- **Location**: Dhaka, Bangladesh (Available for Remote, On-Site & Hybrid worldwide)
+- **Website**: https://salmantoha.vercel.app/
+- **GitHub**: https://github.com/TheLunatic1
+- **LinkedIn**: https://www.linkedin.com/in/salman-toha/
+- **Email**: ishrak1846@gmail.com
+- **Phone / WhatsApp**: +8801780106916
+
+## Technical Skills & Arsenal
+- **DevOps & Cloud Infrastructure**: Docker, Docker Compose, Linux VPS (Ubuntu/Debian), Nginx Reverse Proxy with SSL, Cloudflare Zero-Trust Tunnels, Tailscale Mesh, ZeroTier Mesh VPN, GitHub Actions CI/CD, PM2 Process Manager, SSH Hardening, Proxmox VE, KVM.
+- **Frontend Development**: React 19, Next.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS 4, DaisyUI, GSAP Animations, Framer Motion, Three.js, React Router, React Hook Form, Swiper Slider.
+- **CMS & Headless Commerce**: Wix Studio, Wix Headless, Wix Velo, Shopify Headless, Headless CMS integration.
+- **Mobile & Desktop Development**: React Native, Expo SDK, Electron.js (Cross-Platform iOS, Android & Desktop).
+- **Backend & APIs**: Node.js, Express.js, MongoDB, Firebase, JWT Authentication, RESTful APIs, Axios, Resend.
+- **Tools & Workflow**: Git, GitHub, Vercel, Netlify, Postman, n8n Workflow Automation.
+- **CS Fundamentals & Languages**: C++, Python, Java, C, Data Structures & Algorithms, Problem Solving, IoT & Arduino.
+- **Soft Skills & Leadership**: Decision Making, Client Handling, Team Management & Coordination, Technical Leadership, Collaboration, Time Management, Agile Planning.
+
+## Experience & Career Journey
+1. **Frontend Developer** @ Pixelora Studio (Betopia Group) [Apr 2026 — Present]
+   - Engineering high-performance, pixel-perfect frontend web solutions and interactive digital products.
+   - Architecting modern React, Next.js, and TypeScript frontends with headless CMS and smooth animations.
+2. **DevOps & Self-Hosted Infrastructure** @ Custom HomeLab Server [2023 — Present]
+   - Engineered, wired, and maintaining a custom self-built physical homelab server running Linux & virtualization.
+   - Orchestrating multi-service Docker workloads, GitHub Actions CI/CD pipelines, Nginx SSL reverse proxies, Cloudflare Tunnels, Tailscale, and ZeroTier mesh networking.
+   - Live Node: https://toha.tail2c2947.ts.net
+3. **Full Stack & Cross-Platform Developer** @ Independent & Open Source [2022 — Present]
+   - Developing scalable full-stack web applications, React Native mobile apps, and Electron.js desktop tools.
+4. **BSc in Computer Science & Engineering** @ Daffodil International University [2022 — 2026]
+   - Final year undergraduate focusing on algorithms, data structures, computer networks, and DBMS.
+
+## Featured Links & Documentation
+- [Full LLM Context](/llms-full.txt): Complete detailed text of all projects and experience.
+- [Resume PDF](https://drive.google.com/file/d/1UIIg4Ku7gEiFIh7uSycBlVrCzGkYHIbW/view): Official CV.
+- [GitHub Repositories](https://github.com/TheLunatic1): Active code repositories.
+- [Contact Email](mailto:ishrak1846@gmail.com): Direct communication.

@@ -296,6 +296,7 @@ export default function Skills() {
                       <div className="aspect-square w-full neo-box-sm neo-hover-lift rounded-xl p-1.5 xs:p-2 sm:p-2.5 flex flex-col items-center justify-between text-center bg-[var(--neo-surface-subtle)] group cursor-pointer">
                         <div className="flex-1 w-full flex items-center justify-center">
                           <skill.icon
+                            aria-hidden="true"
                             className={`text-2xl xs:text-3xl sm:text-3xl md:text-4xl ${skill.color} transition-transform duration-300 group-hover:scale-115 group-hover:-rotate-3`}
                           />
                         </div>

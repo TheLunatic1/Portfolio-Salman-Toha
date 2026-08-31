@@ -99,10 +99,11 @@ export default function Navbar() {
           {/* Brand Logo */}
           <button
             onClick={(e) => smoothScroll(e, "hero")}
+            aria-label="Salman Toha - Back to top"
             className="flex items-center gap-2 sm:gap-2.5 text-left group cursor-pointer flex-shrink-0"
           >
             <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-lg sm:rounded-xl bg-indigo-600 text-white flex items-center justify-center font-mono font-bold text-xs sm:text-base border-2 border-[var(--neo-border)] shadow-[2px_2px_0px_var(--neo-shadow)] group-hover:bg-amber-400 group-hover:text-black transition-colors flex-shrink-0">
-              <FiTerminal />
+              <FiTerminal aria-hidden="true" />
             </div>
             <div className="flex flex-col justify-center">
               <span className="font-display font-black text-sm xs:text-base sm:text-lg tracking-tight block text-[var(--neo-text)] group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors leading-tight whitespace-nowrap">
@@ -116,7 +117,7 @@ export default function Navbar() {
           </button>
 
           {/* Desktop Navigation Links (Visible on lg: 1024px+ to avoid tablet 768px squishing) */}
-          <nav className="hidden lg:flex items-center gap-1.5 xl:gap-2">
+          <nav aria-label="Main Navigation" className="hidden lg:flex items-center gap-1.5 xl:gap-2">
             {links.map((link) => (
               <button
                 key={link.id}
@@ -137,7 +138,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="nav-resume-btn neo-btn neo-btn-amber rounded-lg sm:rounded-xl text-[11px] xs:text-xs sm:text-sm py-1.5 px-2.5 sm:px-3.5 flex items-center gap-1.5 whitespace-nowrap"
             >
-              <FiFileText className="text-xs sm:text-sm" />
+              <FiFileText className="text-xs sm:text-sm" aria-hidden="true" />
               <span>Resume</span>
             </a>
 
@@ -147,7 +148,7 @@ export default function Navbar() {
               aria-label="Toggle theme mode"
               className="neo-btn neo-btn-surface rounded-lg sm:rounded-xl p-1.5 sm:p-2 text-xs sm:text-base flex items-center justify-center flex-shrink-0"
             >
-              {theme === "dark" ? <FiSun className="text-amber-400" /> : <FiMoon className="text-indigo-600" />}
+              {theme === "dark" ? <FiSun className="text-amber-400" aria-hidden="true" /> : <FiMoon className="text-indigo-600" aria-hidden="true" />}
             </button>
 
             {/* Mobile / Tablet Drawer Toggle (Visible below lg: 1024px) */}
@@ -156,7 +157,7 @@ export default function Navbar() {
               aria-label="Toggle navigation menu"
               className="lg:hidden neo-btn neo-btn-surface rounded-lg sm:rounded-xl p-1.5 sm:p-2 text-xs sm:text-base flex items-center justify-center flex-shrink-0"
             >
-              {isOpen ? <FiX /> : <FiMenu />}
+              {isOpen ? <FiX aria-hidden="true" /> : <FiMenu aria-hidden="true" />}
             </button>
           </div>
 
@@ -183,7 +184,7 @@ export default function Navbar() {
                 rel="noopener noreferrer"
                 className="neo-btn neo-btn-amber rounded-lg py-2 text-xs font-mono font-bold flex items-center justify-center gap-1.5"
               >
-                <FiFileText />
+                <FiFileText aria-hidden="true" />
                 <span>View Full Resume</span>
               </a>
             </div>

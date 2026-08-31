@@ -50,7 +50,7 @@ export default function ProjectCard({ repo }) {
           ) : (
             <div className="flex flex-col items-center justify-center p-6 text-center">
               <div className="w-12 h-12 rounded-xl bg-[var(--neo-surface)] border-2 border-[var(--neo-border)] shadow-[2px_2px_0px_var(--neo-shadow)] flex items-center justify-center mb-2 text-indigo-600 dark:text-indigo-400 text-2xl group-hover:rotate-6 transition-transform">
-                {isPrivate ? <FiLock /> : <FiCode />}
+                {isPrivate ? <FiLock aria-hidden="true" /> : <FiCode aria-hidden="true" />}
               </div>
               <span className="font-mono text-xs font-bold text-[var(--neo-text-muted)]">
                 {isPrivate ? "Private Repository" : "Repository Workspace"}
@@ -62,12 +62,12 @@ export default function ProjectCard({ repo }) {
           <div className="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
             {isFeatured && (
               <span className="neo-badge neo-badge-amber text-[10px] py-0.5 px-2 rounded">
-                <FiStar className="inline mr-1 text-xs" /> Featured
+                <FiStar className="inline mr-1 text-xs" aria-hidden="true" /> Featured
               </span>
             )}
             {isPrivate && (
               <span className="neo-badge text-[10px] py-0.5 px-2 rounded bg-slate-900 text-white">
-                <FiLock className="inline mr-1 text-xs" /> Private
+                <FiLock className="inline mr-1 text-xs" aria-hidden="true" /> Private
               </span>
             )}
           </div>
@@ -81,9 +81,10 @@ export default function ProjectCard({ repo }) {
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}
                 title="Open Live Preview"
+                aria-label={`Open live preview for ${repo.name}`}
                 className="w-8 h-8 rounded-lg bg-emerald-500 text-white border-2 border-[var(--neo-border)] shadow-[2px_2px_0px_var(--neo-shadow)] hover:bg-emerald-600 flex items-center justify-center transition-transform hover:-translate-y-0.5 active:translate-y-0"
               >
-                <FiExternalLink className="text-sm" />
+                <FiExternalLink className="text-sm" aria-hidden="true" />
               </a>
             )}
             <a
@@ -92,9 +93,10 @@ export default function ProjectCard({ repo }) {
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
               title="View on GitHub"
+              aria-label={`View ${repo.name} source code on GitHub`}
               className="w-8 h-8 rounded-lg bg-[var(--neo-surface)] text-[var(--neo-text)] border-2 border-[var(--neo-border)] shadow-[2px_2px_0px_var(--neo-shadow)] hover:bg-indigo-600 hover:text-white flex items-center justify-center transition-colors"
             >
-              <FiGithub className="text-sm" />
+              <FiGithub className="text-sm" aria-hidden="true" />
             </a>
           </div>
         </div>
@@ -145,11 +147,11 @@ export default function ProjectCard({ repo }) {
           {/* Stars & Forks Stats */}
           <div className="flex items-center gap-3">
             <span className="flex items-center gap-1 font-bold text-amber-500">
-              <FiStar className="text-xs" />
+              <FiStar className="text-xs" aria-hidden="true" />
               {repo.stargazers_count}
             </span>
             <span className="flex items-center gap-1 text-[var(--neo-text-muted)]">
-              <FiGitBranch className="text-xs" />
+              <FiGitBranch className="text-xs" aria-hidden="true" />
               {repo.forks_count}
             </span>
           </div>

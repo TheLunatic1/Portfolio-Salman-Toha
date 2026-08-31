@@ -15,7 +15,11 @@ export default function Local3D({ model, glow = "#4f46e5", name, scale = 1 }) {
       </div>
 
       {/* 3D Canvas Viewport */}
-      <div className="flex-1 w-full h-full relative overflow-hidden flex items-center justify-center">
+      <div
+        role="img"
+        aria-label={`Interactive 3D model representing ${name}`}
+        className="flex-1 w-full h-full relative overflow-hidden flex items-center justify-center"
+      >
         <Canvas camera={{ position: [0, 0, 5], fov: 48 }}>
           <ambientLight intensity={2.2} />
           <directionalLight position={[10, 10, 5]} intensity={3} color="#ffffff" />

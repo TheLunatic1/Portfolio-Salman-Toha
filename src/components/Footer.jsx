@@ -15,7 +15,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[var(--neo-surface)] border-t-2 border-[var(--neo-border)] py-10 sm:py-12 2xl:py-16 px-2.5 sm:px-6 lg:px-8 relative">
+    <footer role="contentinfo" className="bg-[var(--neo-surface)] border-t-2 border-[var(--neo-border)] py-10 sm:py-12 2xl:py-16 px-2.5 sm:px-6 lg:px-8 relative">
       <div className="max-w-7xl 2xl:max-w-[1600px] mx-auto w-full space-y-6 sm:space-y-8">
         
         {/* Top Row: Brand & Back to Top */}
@@ -23,7 +23,7 @@ export default function Footer() {
           
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl bg-indigo-600 text-white flex items-center justify-center font-mono font-bold text-sm sm:text-lg border-2 border-[var(--neo-border)] shadow-[2px_2px_0px_var(--neo-shadow)] flex-shrink-0">
-              <FiTerminal />
+              <FiTerminal aria-hidden="true" />
             </div>
             <div>
               <span className="font-display font-black text-base sm:text-xl 2xl:text-2xl tracking-tight text-[var(--neo-text)] block leading-tight">
@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
 
           {/* Quick Nav Links */}
-          <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs 2xl:text-sm font-mono font-bold text-[var(--neo-text-muted)]">
+          <nav aria-label="Footer Quick Navigation" className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs 2xl:text-sm font-mono font-bold text-[var(--neo-text-muted)]">
             {["hero", "experience", "projects", "skills", "contact"].map((id) => (
               <button
                 key={id}
@@ -46,7 +46,7 @@ export default function Footer() {
                 {id}
               </button>
             ))}
-          </div>
+          </nav>
 
           {/* Scroll to Top Button */}
           <button
@@ -55,7 +55,7 @@ export default function Footer() {
             className="neo-btn neo-btn-surface text-xs 2xl:text-sm py-2 px-3.5 rounded-xl flex items-center gap-1.5"
           >
             <span>Back to top</span>
-            <FiArrowUp />
+            <FiArrowUp aria-hidden="true" />
           </button>
         </div>
 

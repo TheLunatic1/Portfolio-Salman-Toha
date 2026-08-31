@@ -100,7 +100,7 @@ export default function Contact() {
             <div className="contact-card neo-box neo-hover-lift rounded-2xl p-5 sm:p-7 bg-[var(--neo-surface)] flex flex-col justify-between">
               <div>
                 <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 border-2 border-[var(--neo-border)] shadow-[2px_2px_0px_var(--neo-shadow)] flex items-center justify-center text-indigo-600 dark:text-indigo-400 text-lg sm:text-2xl mb-3 sm:mb-4">
-                  <FaEnvelope />
+                  <FaEnvelope aria-hidden="true" />
                 </div>
                 <h3 className="font-display font-bold text-base sm:text-lg 2xl:text-xl text-[var(--neo-text)] mb-1">
                   Direct Email
@@ -117,16 +117,17 @@ export default function Contact() {
               </div>
               <button
                 onClick={() => handleCopy(email, "email")}
+                aria-label="Copy email address to clipboard"
                 className="neo-btn neo-btn-surface text-xs py-2.5 w-full rounded-xl"
               >
                 {copiedEmail ? (
                   <>
-                    <FiCheck className="text-emerald-500" />
+                    <FiCheck className="text-emerald-500" aria-hidden="true" />
                     <span className="text-emerald-600 dark:text-emerald-400">Copied to Clipboard!</span>
                   </>
                 ) : (
                   <>
-                    <FiCopy />
+                    <FiCopy aria-hidden="true" />
                     <span>Copy Email</span>
                   </>
                 )}
@@ -137,7 +138,7 @@ export default function Contact() {
             <div className="contact-card neo-box neo-hover-lift rounded-2xl p-5 sm:p-7 bg-[var(--neo-surface)] flex flex-col justify-between">
               <div>
                 <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 border-2 border-[var(--neo-border)] shadow-[2px_2px_0px_var(--neo-shadow)] flex items-center justify-center text-emerald-600 dark:text-emerald-400 text-lg sm:text-2xl mb-3 sm:mb-4">
-                  <FaPhone />
+                  <FaPhone aria-hidden="true" />
                 </div>
                 <h3 className="font-display font-bold text-base sm:text-lg 2xl:text-xl text-[var(--neo-text)] mb-1">
                   Phone & WhatsApp
@@ -159,17 +160,19 @@ export default function Contact() {
                   href={`https://wa.me/${phone.replace("+", "")}`}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Open chat on WhatsApp"
                   className="neo-btn neo-btn-emerald flex-1 text-xs py-2.5 rounded-xl"
                 >
-                  <FaWhatsapp className="text-sm" />
+                  <FaWhatsapp className="text-sm" aria-hidden="true" />
                   <span>WhatsApp</span>
                 </a>
                 <button
                   onClick={() => handleCopy(phone, "phone")}
                   className="neo-btn neo-btn-surface px-3.5 py-2.5 text-xs rounded-xl"
                   title="Copy Phone Number"
+                  aria-label="Copy Phone Number to clipboard"
                 >
-                  {copiedPhone ? <FiCheck className="text-emerald-500" /> : <FiCopy />}
+                  {copiedPhone ? <FiCheck className="text-emerald-500" aria-hidden="true" /> : <FiCopy aria-hidden="true" />}
                 </button>
               </div>
             </div>
@@ -178,7 +181,7 @@ export default function Contact() {
             <div className="contact-card neo-box neo-hover-lift rounded-2xl p-5 sm:p-7 bg-[var(--neo-surface)] flex flex-col justify-between">
               <div>
                 <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-amber-50 dark:bg-amber-950/60 border-2 border-[var(--neo-border)] shadow-[2px_2px_0px_var(--neo-shadow)] flex items-center justify-center text-amber-500 text-lg sm:text-2xl mb-3 sm:mb-4">
-                  <FiMapPin />
+                  <FiMapPin aria-hidden="true" />
                 </div>
                 <h3 className="font-display font-bold text-base sm:text-lg 2xl:text-xl text-[var(--neo-text)] mb-1">
                   Based in Dhaka
@@ -224,9 +227,10 @@ export default function Contact() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`Visit Salman Toha on ${social.label}`}
                   className={`contact-social-btn neo-btn neo-btn-surface rounded-xl text-xs sm:text-sm py-2.5 sm:py-3 px-2.5 sm:px-3.5 flex items-center justify-center gap-2 w-full text-center ${social.color}`}
                 >
-                  <social.icon className="text-sm sm:text-base flex-shrink-0" />
+                  <social.icon className="text-sm sm:text-base flex-shrink-0" aria-hidden="true" />
                   <span className="truncate">{social.label}</span>
                 </a>
               ))}
@@ -238,18 +242,20 @@ export default function Contact() {
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 sm:gap-6 pt-2">
           <a
             href={`mailto:${email}?subject=Project%20Inquiry%20from%20Portfolio`}
+            aria-label="Send an email to Salman Toha"
             className="neo-btn neo-btn-primary rounded-xl px-7 sm:px-10 py-3.5 text-xs sm:text-base flex items-center justify-center gap-2.5 w-full sm:w-auto"
           >
-            <FiSend />
+            <FiSend aria-hidden="true" />
             <span>Send An Email</span>
           </a>
           <a
             href="https://drive.google.com/file/d/1UIIg4Ku7gEiFIh7uSycBlVrCzGkYHIbW/view"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Download Salman Toha Resume in PDF format"
             className="neo-btn neo-btn-amber rounded-xl px-7 sm:px-10 py-3.5 text-xs sm:text-base flex items-center justify-center gap-2.5 w-full sm:w-auto"
           >
-            <FiFileText />
+            <FiFileText aria-hidden="true" />
             <span>Download Resume (PDF)</span>
           </a>
         </div>

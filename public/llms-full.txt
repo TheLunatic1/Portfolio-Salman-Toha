@@ -1,0 +1,167 @@
+# Salman Toha — Full Stack & DevOps Engineer
+# Complete Portfolio & Knowledge Context for AI Agents (LLMs Full)
+
+## Personal Information & Profile
+- **Full Name**: Salman Toha
+- **Professional Title**: Frontend Developer • Full Stack & DevOps Engineer
+- **Current Position**: Frontend Developer at Pixelora Studio (A concern of Betopia Group)
+- **Current Date Status**: Employed (Apr 2026 — Present)
+- **Location**: Aftabnagar, Badda, Dhaka, Bangladesh
+- **Email**: ishrak1846@gmail.com
+- **Phone / WhatsApp**: +880 1780 106916 (wa.me/8801780106916)
+- **Portfolio Website**: https://salmantoha.vercel.app/
+- **GitHub**: https://github.com/TheLunatic1
+- **LinkedIn**: https://www.linkedin.com/in/salman-toha/
+- **X (Twitter)**: https://x.com/SalmanToha_
+- **Facebook**: https://facebook.com/mac.ishrak.1846
+- **Resume URL**: https://drive.google.com/file/d/1UIIg4Ku7gEiFIh7uSycBlVrCzGkYHIbW/view
+- **Self-Hosted Infrastructure Node**: https://toha.tail2c2947.ts.net
+
+---
+
+## Biography & Summary
+Salman Toha is a Frontend Developer at Pixelora Studio (Betopia Group) and a Full Stack & DevOps enthusiast from Dhaka, Bangladesh. He crafts resilient web applications, custom self-hosted server infrastructure (Docker, Linux VPS, Nginx, Cloudflare Tunnels, Tailscale, ZeroTier), and automated GitHub Actions CI/CD pipelines. He is completing his final year in BSc in Computer Science and Engineering at Daffodil International University.
+
+---
+
+## Detailed Professional Experience & Timeline
+
+### 1. Frontend Developer — Pixelora Studio (Betopia Group)
+- **Period**: April 15, 2026 — Present
+- **Category**: Professional Experience
+- **Location**: Dhaka, Bangladesh
+- **Responsibilities**:
+  - Developing high-performance, pixel-perfect frontend web solutions and interactive digital products under Betopia Group.
+  - Engineering modern React, Next.js, and TypeScript architectures with responsive UI systems, headless CMS integrations, and smooth GSAP/Framer animations.
+  - Building client-facing applications and interactive digital products for global clients.
+  - Engineering responsive, scalable web interfaces using React, Next.js, TypeScript & Tailwind CSS.
+  - Integrating headless solutions (Wix Headless, Shopify Headless, REST/GraphQL APIs).
+  - Collaborating closely with cross-functional design, product, and QA teams under Betopia Group.
+- **Tech Stack**: React.js, Next.js, TypeScript, Tailwind CSS, GSAP, Wix Headless, Shopify Headless.
+
+### 2. DevOps & Self-Hosted Infrastructure — Custom HomeLab Server
+- **Period**: 2023 — Present
+- **Category**: DevOps & Cloud
+- **Location**: Physical Server Lab (Dhaka, Bangladesh)
+- **Link**: https://toha.tail2c2947.ts.net
+- **Responsibilities**:
+  - Engineered, wired, and maintaining a custom self-built physical homelab server running Linux & virtualization.
+  - Orchestrating multi-service Docker workloads, automated GitHub Actions CI/CD solutions, Nginx reverse proxies with SSL, zero-trust Cloudflare Tunnels, Tailscale mesh, and private ZeroTier mesh networking.
+  - Built and provisioned custom physical hardware server for self-hosting & cloud workloads.
+  - Engineered automated GitHub Actions CI/CD deployment solutions for zero-downtime shipping.
+  - Containerized multi-service microservices with Docker, Docker Compose, and PM2 process resilience.
+  - Secured internal server access via Cloudflare Zero-Trust Tunnels, Tailscale & ZeroTier mesh VPN.
+  - Configured high-performance Nginx reverse proxies with automated SSL certificate renewal.
+- **Tech Stack**: Custom HomeLab, Docker, Docker Compose, GitHub Actions CI/CD, Linux VPS, Nginx, PM2, Cloudflare Tunnels, Tailscale, ZeroTier, Proxmox VE, KVM.
+
+### 3. Full Stack & Cross-Platform Developer — Independent & Open Source
+- **Period**: 2022 — Present
+- **Category**: Full Stack & Cross-Platform
+- **Responsibilities**:
+  - Designing and implementing scalable full-stack web, mobile, and desktop applications.
+  - Building performant frontends in React/Next.js paired with robust Node.js/Express and MongoDB backends.
+  - Building native mobile apps with Expo SDK, desktop apps with Electron.js, and workflow automation with n8n.
+  - Developed full-stack web apps with modern React, Next.js, Node.js, and MongoDB.
+  - Built cross-platform iOS & Android mobile apps with React Native & Expo SDK, and desktop apps with Electron.js.
+  - Engineered secure JWT authentication, role-based access control, and payment flows.
+  - Integrated workflow automation and self-hosted pipelines utilizing n8n and webhooks.
+- **Tech Stack**: React.js, React Native, Expo SDK, Electron.js, Node.js, Express.js, MongoDB, n8n, JWT, Tailwind CSS.
+
+### 4. Academic Foundation — BSc in Computer Science & Engineering
+- **Institution**: Daffodil International University (DIU)
+- **Period**: 2022 — 2026 (Expected)
+- **Current Standing**: 4th Year Undergraduate (Final Year)
+- **Prior Academic Merit**: Higher Secondary Certificate (HSC) GPA: 4.95 / 5.00
+- **Coursework**: Algorithms, Data Structures, Database Management Systems (DBMS), Operating Systems, Computer Networks, Software Engineering Methodologies, Object-Oriented Programming (C++, Java, Python).
+
+---
+
+## Comprehensive Technical Arsenal & Skills
+
+### 1. DevOps & Infrastructure
+- Docker & Docker Compose
+- HomeLab Physical Server Architecture
+- Linux VPS (Ubuntu, Debian, Alpine)
+- GitHub Actions CI/CD Pipelines
+- Nginx Reverse Proxy with Automated SSL (Certbot)
+- PM2 Process Manager & Clustering
+- Cloudflare Zero-Trust Tunnels
+- Tailscale Mesh VPN
+- ZeroTier Mesh Networking
+- n8n Self-Hosted Workflow Automation
+- SSH Hardening & Firewall Configuration
+- Proxmox VE / KVM Virtualization
+
+### 2. Frontend Development
+- React 19 & React 18
+- Next.js (App Router & Pages Router)
+- TypeScript & JavaScript (ES6+)
+- HTML5 & Semantic Web Standards
+- CSS3 & Modern Styling
+- Tailwind CSS 4 & Tailwind CSS 3
+- DaisyUI Component System
+- GSAP (GreenSock) & ScrollTrigger Animations
+- Framer Motion
+- Three.js & React Three Fiber (3D WebGL Rendering)
+- React Router & Navigation
+- React Hook Form & Zod Validation
+- Swiper Slider & UI Carousels
+- Responsive Design (Mobile-First)
+
+### 3. CMS & Headless E-Commerce
+- Wix Studio
+- Wix Headless SDK
+- Wix Velo (Full-stack JavaScript on Wix)
+- Shopify Headless Storefronts
+- Headless CMS Integration
+
+### 4. Mobile & Desktop Cross-Platform Development
+- React Native (iOS & Android)
+- Expo SDK & Expo Application Services (EAS)
+- Electron.js (Desktop Cross-Platform macOS, Windows, Linux)
+
+### 5. Backend & APIs
+- Node.js Runtime
+- Express.js Framework
+- MongoDB & Mongoose ODM
+- Firebase (Authentication, Firestore, Storage)
+- JWT Authentication & RBAC
+- RESTful API Architecture
+- Axios HTTP Client
+- Resend Email API
+
+### 6. Tools, Platforms & Automation
+- Git Version Control
+- GitHub & GitHub Organizations
+- Vercel Cloud Platform
+- Netlify Cloud Platform
+- Postman API Testing & Automation
+- n8n Automation Workflows
+
+### 7. Computer Science Fundamentals & Languages
+- C++ (Competitive Programming & Algorithms)
+- Python (Scripting, Automation, AI/ML basics)
+- Java (Object-Oriented Software Design)
+- C Language (Low-level Systems)
+- Problem Solving & DSA
+- IoT & Arduino Microcontrollers
+- AI & Machine Learning Foundations
+
+### 8. Soft Skills & Leadership
+- Decision Making
+- Client Handling & Relationship Management
+- Team Management & Coordination
+- Technical Leadership
+- Cross-Functional Collaboration
+- Agile Time Management & Sprint Planning
+- Technical Documentation & Communication
+
+---
+
+## Machine-Readable API & WebMCP Tool Index
+For AI agents navigating this site:
+- **Hero Section**: `/#hero` — Core credentials, status, 3D interactive avatar.
+- **Experience Section**: `/#experience` — Career timeline and self-hosted homelab link.
+- **Projects Section**: `/#projects` — Dynamic project list loaded from GitHub API (`https://api.github.com/users/TheLunatic1/repos`).
+- **Skills Section**: `/#skills` — Complete interactive skills grid with category filters.
+- **Contact Section**: `/#contact` — Direct channels, social links, and email inquiry form.

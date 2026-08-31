@@ -204,14 +204,14 @@ export default function Hero() {
                   <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 border border-[var(--neo-border)] group-hover:scale-125 transition-transform animate-pulse"></span>
                 </div>
                 <span className="font-mono text-[9px] xs:text-[10px] sm:text-xs font-bold text-[var(--neo-text-muted)] group-hover:text-indigo-600 dark:group-hover:text-indigo-400 flex items-center gap-1.5 transition-colors">
-                  <FiTerminal className="text-indigo-500 group-hover:rotate-12 transition-transform" />
+                  <FiTerminal className="text-indigo-500 group-hover:rotate-12 transition-transform" aria-hidden="true" />
                   bash • salman@pixelora:~ (prod)
                 </span>
               </div>
 
               {/* Terminal Content Body */}
               <div className="p-3 sm:p-4 2xl:p-4.5 flex items-center gap-2.5 text-xs xs:text-sm sm:text-lg md:text-xl 2xl:text-2xl font-bold font-mono text-[var(--neo-text)] overflow-hidden group-hover:bg-[var(--neo-surface-subtle)]/40 transition-colors text-left justify-start">
-                <span className="text-emerald-500 font-bold select-none group-hover:translate-x-1 transition-transform inline-block flex-shrink-0">&gt;_</span>
+                <span className="text-emerald-500 font-bold select-none group-hover:translate-x-1 transition-transform inline-block flex-shrink-0" aria-hidden="true">&gt;_</span>
                 <TypeAnimation
                   sequence={[
                     "Frontend Dev @ Pixelora Studio",
@@ -243,13 +243,13 @@ export default function Hero() {
             {/* Education & Current Role Credentials */}
             <div className="hero-credentials space-y-1.5 sm:space-y-2 font-mono text-[11px] sm:text-sm 2xl:text-base text-[var(--neo-text)] mb-5 sm:mb-6">
               <div className="flex items-start gap-2 bg-[var(--neo-surface-subtle)] p-2.5 sm:p-3 2xl:p-3.5 rounded-xl border border-[var(--neo-border-subtle)] hover:border-[var(--neo-border)] transition-colors">
-                <FiBriefcase className="text-emerald-500 text-sm sm:text-base 2xl:text-lg mt-0.5 flex-shrink-0" />
+                <FiBriefcase className="text-emerald-500 text-sm sm:text-base 2xl:text-lg mt-0.5 flex-shrink-0" aria-hidden="true" />
                 <span className="leading-snug">
                   <strong>Pixelora Studio</strong> (Betopia Group) — <em>Frontend Dev</em> (Apr 2026 — Present)
                 </span>
               </div>
               <div className="flex items-start gap-2 bg-[var(--neo-surface-subtle)] p-2.5 sm:p-3 2xl:p-3.5 rounded-xl border border-[var(--neo-border-subtle)] hover:border-[var(--neo-border)] transition-colors">
-                <span className="text-sm sm:text-base 2xl:text-lg">🎓</span>
+                <span className="text-sm sm:text-base 2xl:text-lg" aria-hidden="true">🎓</span>
                 <span className="leading-snug">
                   <strong>Daffodil International University</strong> — BSc CSE (4th Year) • HSC GPA: <strong>4.95 / 5.00</strong>
                 </span>
@@ -280,7 +280,7 @@ export default function Hero() {
                 <div className="flex items-center justify-between pb-1">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-ping"></span>
                   <span className="text-[7px] xs:text-[8px] sm:text-[9px] font-mono font-bold uppercase text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950 px-1 py-0.2 rounded border border-emerald-200 dark:border-emerald-800 flex items-center gap-0.5">
-                    <FiActivity className="animate-spin" /> Live
+                    <FiActivity className="animate-spin" aria-hidden="true" /> Live
                   </span>
                 </div>
                 <div className="text-base sm:text-2xl 2xl:text-3xl font-black font-display text-emerald-600 dark:text-emerald-400 leading-tight group-hover:scale-105 transition-transform">
@@ -317,7 +317,7 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 className="hero-cta-btn neo-btn neo-btn-primary rounded-xl text-xs sm:text-sm 2xl:text-base py-2.5 sm:py-3 2xl:py-3.5 px-4 sm:px-6 2xl:px-8 text-center hover:scale-103 transition-transform"
               >
-                <FiFileText className="text-base 2xl:text-lg" />
+                <FiFileText className="text-base 2xl:text-lg" aria-hidden="true" />
                 <span>See Resume</span>
               </a>
               <a
@@ -326,14 +326,14 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 className="hero-cta-btn neo-btn neo-btn-surface rounded-xl text-xs sm:text-sm 2xl:text-base py-2.5 sm:py-3 2xl:py-3.5 px-4 sm:px-6 2xl:px-8 text-center hover:scale-103 transition-transform"
               >
-                <FiGithub className="text-base 2xl:text-lg" />
+                <FiGithub className="text-base 2xl:text-lg" aria-hidden="true" />
                 <span>GitHub Profile</span>
               </a>
               <button
                 onClick={() => scrollToSection("projects")}
                 className="hero-cta-btn neo-btn neo-btn-amber rounded-xl text-xs sm:text-sm 2xl:text-base py-2.5 sm:py-3 2xl:py-3.5 px-4 sm:px-6 2xl:px-8 text-center hover:scale-103 transition-transform"
               >
-                <FiArrowDown className="text-base 2xl:text-lg" />
+                <FiArrowDown className="text-base 2xl:text-lg" aria-hidden="true" />
                 <span>View Projects</span>
               </button>
             </div>
@@ -399,7 +399,7 @@ export default function Hero() {
                 className="hero-float-badge hero-float-badge-1 absolute -top-2 -left-2 sm:-top-3 sm:-left-3 z-20 neo-badge neo-badge-cyan rounded-lg sm:rounded-xl px-2 sm:px-2.5 py-0.5 sm:py-1 flex items-center gap-1 sm:gap-1.5 text-[8px] xs:text-[9px] sm:text-[10px] shadow-[2px_2px_0px_var(--neo-shadow)] hover:scale-110 hover:rotate-3 transition-transform cursor-pointer"
                 style={{ transform: "translateZ(30px)" }}
               >
-                <SiDocker className="text-[10px] sm:text-xs text-blue-900" />
+                <SiDocker className="text-[10px] sm:text-xs text-blue-900" aria-hidden="true" />
                 <span className="font-bold font-mono">Docker & VPS</span>
               </div>
 
@@ -407,7 +407,7 @@ export default function Hero() {
                 className="hero-float-badge hero-float-badge-2 absolute -bottom-2 -left-2 sm:-bottom-3 sm:-left-3 z-20 neo-badge neo-badge-accent rounded-lg sm:rounded-xl px-2 sm:px-2.5 py-0.5 sm:py-1 flex items-center gap-1 sm:gap-1.5 text-[8px] xs:text-[9px] sm:text-[10px] shadow-[2px_2px_0px_var(--neo-shadow)] hover:scale-110 hover:-rotate-3 transition-transform cursor-pointer"
                 style={{ transform: "translateZ(35px)" }}
               >
-                <SiReact className="text-[10px] sm:text-xs text-cyan-300 animate-spin" style={{ animationDuration: "12s" }} />
+                <SiReact className="text-[10px] sm:text-xs text-cyan-300 animate-spin" style={{ animationDuration: "12s" }} aria-hidden="true" />
                 <span className="font-bold font-mono">React 19 & Next.js</span>
               </div>
 
@@ -415,7 +415,7 @@ export default function Hero() {
                 className="hero-float-badge hero-float-badge-3 absolute -top-2 -right-2 sm:-top-3 sm:-right-3 z-20 neo-badge neo-badge-amber rounded-lg sm:rounded-xl px-2 sm:px-2.5 py-0.5 sm:py-1 flex items-center gap-1 sm:gap-1.5 text-[8px] xs:text-[9px] sm:text-[10px] shadow-[2px_2px_0px_var(--neo-shadow)] hover:scale-110 hover:rotate-3 transition-transform cursor-pointer"
                 style={{ transform: "translateZ(40px)" }}
               >
-                <SiLinux className="text-[10px] sm:text-xs" />
+                <SiLinux className="text-[10px] sm:text-xs" aria-hidden="true" />
                 <span className="font-bold font-mono">Linux & Nginx</span>
               </div>
 
