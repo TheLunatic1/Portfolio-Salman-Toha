@@ -1,10 +1,10 @@
 import { useRef } from "react";
-import { FiServer, FiCode, FiAward, FiCheckCircle, FiBriefcase } from "react-icons/fi";
+import { FiServer, FiCode, FiAward, FiCheckCircle, FiBriefcase, FiExternalLink } from "react-icons/fi";
 import { gsap, useGSAP } from "../../lib/gsap";
 
 const experiences = [
   {
-    period: "April 15, 2024 — Present",
+    period: "April 15, 2026 — Present",
     category: "Professional Experience",
     badgeColor: "neo-badge-emerald",
     role: "Frontend Developer",
@@ -28,35 +28,37 @@ const experiences = [
     role: "DevOps & Self-Hosted Infrastructure",
     company: "Custom HomeLab Server",
     subtitle: "Physical Server Lab • Docker • Cloudflare • CI/CD",
+    link: "https://toha.tail2c2947.ts.net",
+    linkLabel: "toha.tail2c2947.ts.net",
     description:
-      "Engineered, wired, and maintaining a custom self-built physical homelab server running Linux & virtualization. Orchestrating multi-service Docker workloads, automated GitHub Actions CI/CD solutions, Nginx reverse proxies with SSL, zero-trust Cloudflare Tunnels, and private ZeroTier mesh networking.",
+      "Engineered, wired, and maintaining a custom self-built physical homelab server running Linux & virtualization. Orchestrating multi-service Docker workloads, automated GitHub Actions CI/CD solutions, Nginx reverse proxies with SSL, zero-trust Cloudflare Tunnels, Tailscale, and private ZeroTier mesh networking.",
     highlights: [
       "Built and provisioned custom physical hardware server for self-hosting & cloud workloads",
       "Engineered automated GitHub Actions CI/CD deployment solutions for zero-downtime shipping",
       "Containerized multi-service microservices with Docker, Docker Compose, and PM2 process resilience",
-      "Secured internal server access via Cloudflare Zero-Trust Tunnels & ZeroTier mesh VPN",
+      "Secured internal server access via Cloudflare Zero-Trust Tunnels, Tailscale & ZeroTier mesh VPN",
       "Configured high-performance Nginx reverse proxies with automated SSL certificate renewal",
     ],
     icon: FiServer,
-    techStack: ["Custom HomeLab", "Docker", "GitHub Actions CI/CD", "Linux VPS", "Nginx", "PM2", "Cloudflare Tunnels", "ZeroTier"],
+    techStack: ["Custom HomeLab", "Docker", "GitHub Actions CI/CD", "Linux VPS", "Nginx", "PM2", "Cloudflare Tunnels", "Tailscale", "ZeroTier"],
   },
   {
     period: "2022 — Present",
-    category: "Full Stack & Mobile",
+    category: "Full Stack & Cross-Platform",
     badgeColor: "neo-badge-accent",
-    role: "Full Stack & Mobile Developer",
+    role: "Full Stack & Cross-Platform Developer",
     company: "Independent & Open Source",
-    subtitle: "MERN Stack • React Native • Expo SDK • n8n Automation",
+    subtitle: "MERN Stack • React Native • Expo SDK • Electron.js • n8n",
     description:
-      "Designing and implementing scalable full-stack web and mobile applications. Building performant frontends in React/Next.js paired with robust Node.js/Express and MongoDB backends, as well as native mobile apps with Expo SDK and workflow automation with n8n.",
+      "Designing and implementing scalable full-stack web, mobile, and desktop applications. Building performant frontends in React/Next.js paired with robust Node.js/Express and MongoDB backends, as well as native mobile apps with Expo SDK, desktop apps with Electron.js, and workflow automation with n8n.",
     highlights: [
       "Developed full-stack web apps with modern React, Next.js, Node.js, and MongoDB",
-      "Built cross-platform iOS & Android mobile applications using React Native & Expo SDK",
+      "Built cross-platform iOS & Android mobile apps with React Native & Expo SDK, and desktop apps with Electron.js",
       "Engineered secure JWT authentication, role-based access control, and payment flows",
       "Integrated workflow automation and self-hosted pipelines utilizing n8n and webhooks",
     ],
     icon: FiCode,
-    techStack: ["React.js", "React Native", "Expo SDK", "Node.js", "Express.js", "MongoDB", "n8n", "JWT"],
+    techStack: ["React.js", "React Native", "Expo SDK", "Electron.js", "Node.js", "Express.js", "MongoDB", "n8n", "JWT"],
   },
   {
     period: "2022 — 2026 (Expected)",
@@ -156,7 +158,7 @@ export default function Experience() {
                     <div className="w-10 h-10 sm:w-11 sm:h-11 2xl:w-12 2xl:h-12 rounded-xl bg-[var(--neo-surface-subtle)] border-2 border-[var(--neo-border)] shadow-[2px_2px_0px_var(--neo-shadow)] flex items-center justify-center text-indigo-600 dark:text-indigo-400 flex-shrink-0 text-xl sm:text-2xl">
                       <Icon />
                     </div>
-                    <div>
+                    <div className="min-w-0 flex-1">
                       <h3 className="text-base sm:text-xl 2xl:text-2xl font-bold font-display text-[var(--neo-text)] leading-snug">
                         {exp.role}
                       </h3>
@@ -166,6 +168,19 @@ export default function Experience() {
                       <p className="font-mono text-[10px] sm:text-[11px] 2xl:text-xs text-[var(--neo-text-muted)]">
                         {exp.subtitle}
                       </p>
+                      {exp.link && (
+                        <div className="mt-1.5">
+                          <a
+                            href={exp.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 font-mono text-[10px] sm:text-xs font-bold text-cyan-600 dark:text-cyan-400 hover:text-cyan-500 bg-cyan-500/10 hover:bg-cyan-500/20 px-2 py-0.5 rounded-md border border-cyan-500/30 transition-all hover:scale-105"
+                          >
+                            <FiExternalLink className="text-[10px] sm:text-xs flex-shrink-0" />
+                            <span>{exp.linkLabel || exp.link.replace(/^https?:\/\//, "")}</span>
+                          </a>
+                        </div>
+                      )}
                     </div>
                   </div>
 

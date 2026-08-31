@@ -14,13 +14,13 @@ A modern, high-performance personal portfolio featuring a **Minimal Neo-Brutalis
 ---
 
 ### Core Skill Categories
-1. **DevOps & Infrastructure**: Docker, Docker Compose, Linux VPS (Ubuntu/Debian), Nginx Reverse Proxy, PM2 Process Manager, Cloudflare Tunnels, ZeroTier Mesh Network, GitHub Actions CI/CD, SSH Hardening, KVM / QEMU.
+1. **DevOps & Infrastructure**: Docker, Docker Compose, Linux VPS (Ubuntu/Debian), Nginx Reverse Proxy, PM2 Process Manager, Cloudflare Tunnels, Tailscale, ZeroTier Mesh Network, GitHub Actions CI/CD, SSH Hardening, KVM / QEMU.
 2. **Frontend Development**: React 19, Next.js, TypeScript, JavaScript, Tailwind CSS 4, GSAP & Framer Motion, Three.js, React Router, React Hook Form, Swiper Slider.
-3. **Mobile Development**: React Native, Expo SDK, Android & iOS cross-platform.
+3. **Mobile & Desktop Development**: React Native, Expo SDK, Electron.js, Android & iOS cross-platform.
 4. **Backend & APIs**: Node.js, Express.js, MongoDB, Firebase, JWT Authentication, RESTful APIs, Axios, Resend.
 5. **Tools & Platforms**: Git, GitHub, Vercel, Netlify, Postman, Wix CMS.
 6. **Computer Science & Languages**: C, C++, Python, Java, Problem Solving / DSA, IoT & Arduino, AI & ML fundamentals.
-7. **Soft Skills**: Technical Leadership, Team Collaboration, Agile Time Management.
+7. **Soft Skills & Leadership**: Decision Making, Client Handling & Communication, Team Management & Coordination, Technical Leadership, Agile Planning.
 
 ---
 

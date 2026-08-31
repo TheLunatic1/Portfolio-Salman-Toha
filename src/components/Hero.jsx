@@ -245,13 +245,13 @@ export default function Hero() {
               <div className="flex items-start gap-2 bg-[var(--neo-surface-subtle)] p-2.5 sm:p-3 2xl:p-3.5 rounded-xl border border-[var(--neo-border-subtle)] hover:border-[var(--neo-border)] transition-colors">
                 <FiBriefcase className="text-emerald-500 text-sm sm:text-base 2xl:text-lg mt-0.5 flex-shrink-0" />
                 <span className="leading-snug">
-                  <strong>Pixelora Studio</strong> (Betopia Group) — <em>Frontend Dev</em> (Apr 2024 — Present)
+                  <strong>Pixelora Studio</strong> (Betopia Group) — <em>Frontend Dev</em> (Apr 2026 — Present)
                 </span>
               </div>
               <div className="flex items-start gap-2 bg-[var(--neo-surface-subtle)] p-2.5 sm:p-3 2xl:p-3.5 rounded-xl border border-[var(--neo-border-subtle)] hover:border-[var(--neo-border)] transition-colors">
                 <span className="text-sm sm:text-base 2xl:text-lg">🎓</span>
                 <span className="leading-snug">
-                  <strong>Daffodil International University</strong> — BSc CSE (4th Year) • GPA: <strong>4.95 / 5.00</strong>
+                  <strong>Daffodil International University</strong> — BSc CSE (4th Year) • HSC GPA: <strong>4.95 / 5.00</strong>
                 </span>
               </div>
             </div>

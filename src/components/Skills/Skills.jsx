@@ -7,14 +7,15 @@ import {
   SiJsonwebtokens, SiChartdotjs, SiGithub, SiGit, SiCss3,
   SiArduino, SiPython, SiC, SiCplusplus, SiTypescript, SiLinux,
   SiNginx, SiWix, SiPm2, SiThreedotjs, SiDocker,
-  SiCloudflare, SiZerotier, SiGithubactions, SiGnubash, SiPostman,
-  SiShopify, SiN8N, SiProxmox
+  SiCloudflare, SiZerotier, SiTailscale, SiGithubactions, SiGnubash, SiPostman,
+  SiShopify, SiN8N, SiProxmox, SiElectron
 } from "react-icons/si";
 import { GiArtificialIntelligence } from "react-icons/gi";
 import { DiResponsive } from "react-icons/di";
 import { PiMathOperations } from "react-icons/pi";
-import { TbRouteSquare } from "react-icons/tb";
-import { FaHtml5, FaHeadset, FaMobileAlt, FaBox, FaGlobe, FaEnvelope, FaServer } from "react-icons/fa";
+import { TbRouteSquare, TbTargetArrow } from "react-icons/tb";
+import { FaHtml5, FaHeadset, FaMobileAlt, FaBox, FaGlobe, FaEnvelope, FaServer, FaComments, FaHandshake, FaUserTie } from "react-icons/fa";
+import { FaBrain, FaPeopleGroup } from "react-icons/fa6";
 import { FcCollaboration } from "react-icons/fc";
 import { CiTimer } from "react-icons/ci";
 import { gsap, useGSAP } from "../../lib/gsap";
@@ -35,6 +36,7 @@ const skillSections = [
       { name: "Nginx Proxy", icon: SiNginx, color: "text-emerald-500" },
       { name: "PM2 Manager", icon: SiPm2, color: "text-indigo-500" },
       { name: "Cloudflare Tunnels", icon: SiCloudflare, color: "text-orange-500" },
+      { name: "Tailscale Mesh", icon: SiTailscale, color: "text-cyan-400" },
       { name: "ZeroTier Mesh", icon: SiZerotier, color: "text-amber-400" },
       { name: "n8n Automation", icon: SiN8N, color: "text-rose-500" },
       { name: "SSH Hardening", icon: SiGnubash, color: "text-emerald-400" },
@@ -80,14 +82,15 @@ const skillSections = [
   },
   {
     id: "mobile",
-    title: "Mobile Development",
+    title: "Mobile & Desktop Apps",
     badge: "Cross-Platform",
     badgeColor: "neo-badge-amber",
-    description: "Native cross-platform mobile applications for iOS and Android with fast performance and offline sync.",
+    description: "Cross-platform mobile and desktop applications for iOS, Android, and Desktop with fast performance and native capabilities.",
     skills: [
       { name: "React Native", icon: FaMobileAlt, color: "text-blue-400" },
       { name: "Expo SDK", icon: FaBox, color: "text-indigo-400" },
       { name: "Expo SDK 54", icon: FaBox, color: "text-emerald-400" },
+      { name: "Electron.js", icon: SiElectron, color: "text-sky-400" },
     ]
   },
   {
@@ -142,14 +145,19 @@ const skillSections = [
   },
   {
     id: "soft",
-    title: "Soft Skills",
+    title: "Soft Skills & Leadership",
     badge: "Leadership & Collaboration",
     badgeColor: "neo-badge-emerald",
-    description: "Communication, engineering collaboration, and agile problem solving.",
+    description: "Team management, client handling, strategic decision making, and agile problem solving.",
     skills: [
-      { name: "Leadership", icon: FaHeadset, color: "text-blue-400" },
+      { name: "Decision Making", icon: FaBrain, color: "text-purple-400" },
+      { name: "Client Handling", icon: FaHandshake, color: "text-emerald-400" },
+      { name: "Team Management & Coordination", icon: FaPeopleGroup, color: "text-blue-400" },
+      { name: "Leadership", icon: FaUserTie, color: "text-amber-400" },
       { name: "Collaboration", icon: FcCollaboration, color: "text-green-400" },
       { name: "Time Management", icon: CiTimer, color: "text-yellow-400" },
+      { name: "Communication", icon: FaComments, color: "text-teal-400" },
+      { name: "Agile & Planning", icon: TbTargetArrow, color: "text-rose-400" },
     ]
   }
 ];
@@ -291,7 +299,7 @@ export default function Skills() {
                             className={`text-2xl xs:text-3xl sm:text-3xl md:text-4xl ${skill.color} transition-transform duration-300 group-hover:scale-115 group-hover:-rotate-3`}
                           />
                         </div>
-                        <p className="font-display font-bold text-[10px] xs:text-[11px] sm:text-xs text-[var(--neo-text)] group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-1 w-full text-center pt-0.5">
+                        <p className="font-display font-bold text-[9px] xs:text-[10px] sm:text-[11px] text-[var(--neo-text)] group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-2 leading-tight w-full text-center pt-0.5">
                           {skill.name}
                         </p>
                       </div>
