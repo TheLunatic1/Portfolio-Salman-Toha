@@ -237,7 +237,7 @@ export default function Hero() {
 
             {/* Bio Paragraph (With dedicated breathing room) */}
             <p className="hero-bio text-xs sm:text-base lg:text-lg 2xl:text-xl text-[var(--neo-text-muted)] leading-relaxed font-normal mb-5 sm:mb-6 text-left">
-              Frontend Developer at <strong className="text-[var(--neo-text)] font-semibold">Pixelora Studio (Betopia Group)</strong> and Full Stack & DevOps enthusiast. Crafting resilient web applications, custom self-hosted server infrastructure (<strong className="text-[var(--neo-text)] font-semibold">Docker, Linux VPS, Nginx, Cloudflare Tunnels</strong>), and automated <strong className="text-[var(--neo-text)] font-semibold">GitHub Actions CI/CD pipelines</strong>.
+              Frontend Developer at <strong className="text-[var(--neo-text)] font-semibold">Pixelora Studio</strong> and Full Stack & DevOps enthusiast. Crafting resilient web applications, custom self-hosted server infrastructure (<strong className="text-[var(--neo-text)] font-semibold">Docker, Linux VPS, Nginx, Cloudflare Tunnels</strong>), and automated <strong className="text-[var(--neo-text)] font-semibold">GitHub Actions CI/CD pipelines</strong>.
             </p>
 
             {/* Education & Current Role Credentials */}
@@ -245,7 +245,7 @@ export default function Hero() {
               <div className="flex items-start gap-2 bg-[var(--neo-surface-subtle)] p-2.5 sm:p-3 2xl:p-3.5 rounded-xl border border-[var(--neo-border-subtle)] hover:border-[var(--neo-border)] transition-colors">
                 <FiBriefcase className="text-emerald-500 text-sm sm:text-base 2xl:text-lg mt-0.5 flex-shrink-0" aria-hidden="true" />
                 <span className="leading-snug">
-                  <strong>Pixelora Studio</strong> (Betopia Group) — <em>Frontend Dev</em> (Apr 2026 — Present)
+                  <strong>Pixelora Studio</strong> — <em>Frontend Dev</em> (Apr 2026 — Present)
                 </span>
               </div>
               <div className="flex items-start gap-2 bg-[var(--neo-surface-subtle)] p-2.5 sm:p-3 2xl:p-3.5 rounded-xl border border-[var(--neo-border-subtle)] hover:border-[var(--neo-border)] transition-colors">
@@ -271,7 +271,7 @@ export default function Hero() {
                   Pixelora
                 </div>
                 <div className="text-[8px] xs:text-[9px] sm:text-xs 2xl:text-sm font-mono font-bold text-[var(--neo-text-muted)] uppercase tracking-tight mt-0.5">
-                  Betopia Group
+                  Studio
                 </div>
               </div>
 

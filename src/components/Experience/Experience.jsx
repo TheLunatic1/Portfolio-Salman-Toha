@@ -9,14 +9,14 @@ const experiences = [
     badgeColor: "neo-badge-emerald",
     role: "Frontend Developer",
     company: "Pixelora Studio",
-    subtitle: "A concern of Betopia Group • Dhaka, Bangladesh",
+    subtitle: "Dhaka, Bangladesh",
     description:
-      "Developing high-performance, pixel-perfect frontend web solutions and interactive digital products under Betopia Group. Engineering modern React, Next.js, and TypeScript architectures with responsive UI systems, headless CMS integrations, and smooth GSAP/Framer animations.",
+      "Developing high-performance, pixel-perfect frontend web solutions and interactive digital products at Pixelora Studio. Engineering modern React, Next.js, and TypeScript architectures with responsive UI systems, headless CMS integrations, and smooth GSAP/Framer animations.",
     highlights: [
       "Building client-facing applications and interactive digital products for global clients",
       "Engineering responsive, scalable web interfaces using React, Next.js, TypeScript & Tailwind CSS",
       "Integrating headless solutions (Wix Headless, Shopify Headless, REST/GraphQL APIs)",
-      "Collaborating closely with cross-functional design, product, and QA teams under Betopia Group",
+      "Collaborating closely with cross-functional design, product, and QA teams",
     ],
     icon: FiBriefcase,
     techStack: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "GSAP", "Wix Headless", "Shopify Headless"],

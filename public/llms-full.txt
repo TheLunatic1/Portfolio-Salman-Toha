@@ -4,7 +4,7 @@
 ## Personal Information & Profile
 - **Full Name**: Salman Toha
 - **Professional Title**: Frontend Developer • Full Stack & DevOps Engineer
-- **Current Position**: Frontend Developer at Pixelora Studio (A concern of Betopia Group)
+- **Current Position**: Frontend Developer at Pixelora Studio
 - **Current Date Status**: Employed (Apr 2026 — Present)
 - **Location**: Aftabnagar, Badda, Dhaka, Bangladesh
 - **Email**: ishrak1846@gmail.com
@@ -20,23 +20,23 @@
 ---
 
 ## Biography & Summary
-Salman Toha is a Frontend Developer at Pixelora Studio (Betopia Group) and a Full Stack & DevOps enthusiast from Dhaka, Bangladesh. He crafts resilient web applications, custom self-hosted server infrastructure (Docker, Linux VPS, Nginx, Cloudflare Tunnels, Tailscale, ZeroTier), and automated GitHub Actions CI/CD pipelines. He is completing his final year in BSc in Computer Science and Engineering at Daffodil International University.
+Salman Toha is a Frontend Developer at Pixelora Studio and a Full Stack & DevOps enthusiast from Dhaka, Bangladesh. He crafts resilient web applications, custom self-hosted server infrastructure (Docker, Linux VPS, Nginx, Cloudflare Tunnels, Tailscale, ZeroTier), and automated GitHub Actions CI/CD pipelines. He is completing his final year in BSc in Computer Science and Engineering at Daffodil International University.
 
 ---
 
 ## Detailed Professional Experience & Timeline
 
-### 1. Frontend Developer — Pixelora Studio (Betopia Group)
+### 1. Frontend Developer — Pixelora Studio
 - **Period**: April 15, 2026 — Present
 - **Category**: Professional Experience
 - **Location**: Dhaka, Bangladesh
 - **Responsibilities**:
-  - Developing high-performance, pixel-perfect frontend web solutions and interactive digital products under Betopia Group.
+  - Developing high-performance, pixel-perfect frontend web solutions and interactive digital products at Pixelora Studio.
   - Engineering modern React, Next.js, and TypeScript architectures with responsive UI systems, headless CMS integrations, and smooth GSAP/Framer animations.
   - Building client-facing applications and interactive digital products for global clients.
   - Engineering responsive, scalable web interfaces using React, Next.js, TypeScript & Tailwind CSS.
   - Integrating headless solutions (Wix Headless, Shopify Headless, REST/GraphQL APIs).
-  - Collaborating closely with cross-functional design, product, and QA teams under Betopia Group.
+  - Collaborating closely with cross-functional design, product, and QA teams.
 - **Tech Stack**: React.js, Next.js, TypeScript, Tailwind CSS, GSAP, Wix Headless, Shopify Headless.
 
 ### 2. DevOps & Self-Hosted Infrastructure — Custom HomeLab Server

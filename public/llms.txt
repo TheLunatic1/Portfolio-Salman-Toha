@@ -1,11 +1,11 @@
 # Salman Toha — Full Stack & DevOps Engineer
 
-> Frontend Developer at Pixelora Studio (Betopia Group), Computer Science undergraduate at Daffodil International University (4th Year), and self-hosted HomeLab DevOps architect.
+> Frontend Developer at Pixelora Studio, Computer Science undergraduate at Daffodil International University (4th Year), and self-hosted HomeLab DevOps architect.
 
 ## Summary
 Salman Toha is a software engineer based in Dhaka, Bangladesh specializing in resilient full-stack web applications, custom self-hosted server infrastructure, container orchestration, and automated CI/CD deployment pipelines.
 
-- **Current Role**: Frontend Developer @ Pixelora Studio (Betopia Group) (Apr 2026 — Present)
+- **Current Role**: Frontend Developer @ Pixelora Studio (Apr 2026 — Present)
 - **Education**: Daffodil International University — BSc in Computer Science & Engineering (4th Year, Expected 2026) • HSC GPA: 4.95 / 5.00
 - **Location**: Dhaka, Bangladesh (Available for Remote, On-Site & Hybrid worldwide)
 - **Website**: https://salmantoha.vercel.app/
@@ -25,7 +25,7 @@ Salman Toha is a software engineer based in Dhaka, Bangladesh specializing in re
 - **Soft Skills & Leadership**: Decision Making, Client Handling, Team Management & Coordination, Technical Leadership, Collaboration, Time Management, Agile Planning.
 
 ## Experience & Career Journey
-1. **Frontend Developer** @ Pixelora Studio (Betopia Group) [Apr 2026 — Present]
+1. **Frontend Developer** @ Pixelora Studio [Apr 2026 — Present]
    - Engineering high-performance, pixel-perfect frontend web solutions and interactive digital products.
    - Architecting modern React, Next.js, and TypeScript frontends with headless CMS and smooth animations.
 2. **DevOps & Self-Hosted Infrastructure** @ Custom HomeLab Server [2023 — Present]
