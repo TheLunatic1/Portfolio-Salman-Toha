@@ -9,7 +9,7 @@
 - **Location**: Aftabnagar, Badda, Dhaka, Bangladesh
 - **Email**: ishrak1846@gmail.com
 - **Phone / WhatsApp**: +880 1780 106916 (wa.me/8801780106916)
-- **Portfolio Website**: https://salmantoha.vercel.app/
+- **Portfolio Website**: https://toha.nratlabs.com/ (Mirror: https://salmantoha.vercel.app/)
 - **GitHub**: https://github.com/TheLunatic1
 - **LinkedIn**: https://www.linkedin.com/in/salman-toha/
 - **X (Twitter)**: https://x.com/SalmanToha_

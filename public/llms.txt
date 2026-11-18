@@ -8,7 +8,7 @@ Salman Toha is a software engineer based in Dhaka, Bangladesh specializing in re
 - **Current Role**: Frontend Developer @ Pixelora Studio (Apr 2026 — Present)
 - **Education**: Daffodil International University — BSc in Computer Science & Engineering (4th Year, Expected 2026) • HSC GPA: 4.95 / 5.00
 - **Location**: Dhaka, Bangladesh (Available for Remote, On-Site & Hybrid worldwide)
-- **Website**: https://salmantoha.vercel.app/
+- **Website**: https://toha.nratlabs.com/ (Mirror: https://salmantoha.vercel.app/)
 - **GitHub**: https://github.com/TheLunatic1
 - **LinkedIn**: https://www.linkedin.com/in/salman-toha/
 - **Email**: ishrak1846@gmail.com
